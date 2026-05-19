@@ -1,0 +1,26 @@
+# AI Exam Proctoring System - Requirements
+# Install with: pip install -r requirements.txt
+
+# Core
+streamlit>=1.30.0
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# AI / Computer Vision
+mediapipe>=0.10.0
+insightface>=0.7.3
+onnxruntime>=1.16.0
+
+# Object Detection (choose one)
+ultralytics>=8.0.0        # YOLOv8 (recommended)
+# torch>=2.0.0            # Uncomment if using PyTorch models
+# torchvision>=0.15.0
+
+# Data & Visualization
+pandas>=2.0.0
+matplotlib>=3.7.0
+Pillow>=10.0.0
+
+# Utilities
+python-dotenv>=1.0.0
+tqdm>=4.65.0
